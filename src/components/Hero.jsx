@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import JavierResume from "../assets/cv.pdf";
 
 const navigation = [
   { name: "Home", href: "#home" },
@@ -145,8 +145,8 @@ return (
 
       <div className="mx-auto max-w-3xl py-24 sm:py-32 text-center">
         {/* TAG */}
-        <p className="text-sm font-medium text-indigo-600">
-          Zoho Developer | Automation Developer | IT Systems Developer
+        <p className="text-midium font-medium text-indigo-600">
+          Zoho Automation Developer
         </p>
 
         {/* TITLE */}
@@ -171,7 +171,8 @@ return (
           </a>
 
           <a
-            href="/cv.pdf"
+            href={JavierResume}
+            download="Javier_Canoy_CV.pdf"
             className="text-sm font-semibold text-gray-900 hover:text-indigo-600"
           >
             Download CV →

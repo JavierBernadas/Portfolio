@@ -66,8 +66,7 @@ export default function Footer() {
             </h2>
 
             <p className="mt-4 text-sm leading-7 text-gray-600">
-              Building modern web applications with React, Tailwind CSS,
-              Framer Motion, and scalable backend systems.
+              Crafting high-performance web applications and end-to-end Zoho automations using React, Node.js, and Deluge scripting.
             </p>
 
             {/* Social Buttons with Icons */}
